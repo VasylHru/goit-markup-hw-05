@@ -5,6 +5,7 @@
   --about-galtext: #434455;
   --first-border-color: #e7e9fc;
   --second-border-color: #f4f4fd;
+  --backdrop-color:#FCFCFC;
 }
 
 * {
@@ -252,6 +253,43 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+/*--------------Backdrop----------------*/
+.is-hiden {
+  visibility: hidden;
+}
+
+.backdrop   {
+  transition:opacity 250ms linear, visibility 250ms linear;
+  background-color: rgba(46, 47, 66, 0.4);
+  top: 0;
+  width: 1440px;
+  height: 100%;
+  position: fixed
+  
+  
+}
+  
+.modal {
+position: absolute;
+width: 408px;
+min-height: 576px;
+background-color:var(--backdrop-color) ;
+border-radius: 4px;
+left: 50%;
+top: 50%;
+
+}
+
+.backdrop-close-but {
+  
+}
+
+
+
+
+
+
 
 /*--------------OUR icons----------------*/
 .skills-icons {

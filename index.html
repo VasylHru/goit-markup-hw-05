@@ -62,9 +62,18 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order service</button>
-        </div>
+          <button class="hero-button" type="button"  data-modal-open>Order service</button>
       </section>
+      <!--Backdrop-->
+      <div class="backdrop is-hiden" data-modal>
+        <div class="modal">
+          <p></p>
+          <button class="=backdrop-close-but" data-modal-close>close</button>
+        </div>
+      </div>
+    </div>
+     
+     
 
       <!--SKILLS-->
       <section class="about">
@@ -387,5 +396,6 @@
     </div>
   </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
