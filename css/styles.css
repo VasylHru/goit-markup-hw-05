@@ -604,6 +604,86 @@ transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
+ /* ===========FOTER-INPUT-SUBSCRIBE========= */
+.footer-subscribe-box {
+margin-left: auto;
+width: 453px;
+height: 80px;
+}
+
+
+
+
+.input-title {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.footer-input {
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+padding-left: 16px;
+background-color: #2e2f42;
+}
+
+
+
+.footer-input-botton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background-color: #4d5ae5;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-input-botton:hover {
+background-color: #404bbf;
+} 
+
+.footer-input-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===============MODAL-WINDOW====================== */
 
 .backdrop {
@@ -612,8 +692,17 @@ transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1)
   background: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible; 
+  pointer-events: auto; 
+}
+ 
 
 .modal {
   width: 408px;
