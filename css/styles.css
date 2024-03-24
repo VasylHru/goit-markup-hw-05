@@ -708,7 +708,7 @@ background-color: #404bbf;
   width: 408px;
   min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  background: #fcfcfc;
+  background-color: #fcfcfc;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -738,7 +738,7 @@ background-color: #404bbf;
 
 .modal-close:hover {
   background-color: #404BBF;
-  fill:#fff
+  fill: #e7e9fc;
 }
 
 
@@ -772,6 +772,7 @@ max-width: 360px;
 
 
 .modal-input {
+  
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -792,28 +793,34 @@ max-width: 360px;
 
 
 .modal-label {
-
+margin-bottom: 8px;
 font-size: 12px;
 line-height: 1.16667;
 letter-spacing: 0.04em;
 color: #8e8f99;
+display: block;
+
 }
 
-.icon-input-wrap {
-  position: relative;
-  margin-bottom: 8px;
+.modal-field {
   
+  margin-bottom: 8px;
+}
+
+.modal-imput-wrap {
+  position: relative;
 }
 
 .modal-icon {
   fill: #2e2f42;
   position: absolute;
-  padding: 3px 0px;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 
 
@@ -825,7 +832,7 @@ line-height: 1.16667;
 letter-spacing: 0.04em;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-width: 360px;
+width: 100%;
 height: 120px;
 padding-top:8px;
 padding-left: 16px;
