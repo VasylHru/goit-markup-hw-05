@@ -887,7 +887,9 @@ color: rgba(46, 47, 66, 0.4);
 
 
 
-
+.modal-checkbox {
+  margin-bottom: 24%;
+}
 
 .check-text {
 font-weight: 400; 
