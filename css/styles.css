@@ -763,7 +763,8 @@ background-color: #404bbf;
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
-  fill:#fff
+  fill:#fff;
+  border: none; 
 }
 
 
@@ -795,7 +796,7 @@ max-width: 360px;
 }
 
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px; 
 
 }
 
@@ -846,7 +847,9 @@ line-height: 1.17;
 }
 
 
-
+.user-coment {
+  margin-bottom: 16px;
+}
 
 
 
@@ -894,9 +897,15 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 display: flex;
 align-items: center;
-
-
 }
+
+.privacy-span {
+  display: inline-flex;
+}
+
+
+
+
 
 .check-text  span {
   margin-right: 8px;
@@ -904,7 +913,7 @@ align-items: center;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
+ 
   align-items: center;
   justify-content: center;
   fill:transparent;
