@@ -464,7 +464,7 @@
         <div class="footer-subscribe-box">
           <p class="input-title">Subscribe</p>
           <form class="footer-form">
-            <label>
+            <label class="subscribe-label">
               <input
                 type="email"
                 name="footer-email"
@@ -486,7 +486,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="botton-icon" width="8" height="8">
@@ -543,10 +543,10 @@
           </div>
 
           <div class="modal-field">
-            <label for="use-comment" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              name="use-comment"
-              id="use-comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               class="modal-text"
             ></textarea>
@@ -554,14 +554,15 @@
 
           <div class="modal-field">
             <input
+             value="true"
               type="checkbox"
-              name="privacy"
+              name="user-privacy"
               required
-              id="privacy"
+              id="user-privacy"
               class="modal-check visually-hidden"
             />
-            <label for="privacy" class="check-text"
-              ><span
+            <label for="user-privacy" class="check-text"
+              ><span class="privacy-span"
                 ><svg width="10" height="8">
                   <use
                     href="./images/icons.svg#icon-check-icon"
